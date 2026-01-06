@@ -160,7 +160,6 @@ sf::Font loadFont(const std::string& file);
 
 // Stałe
 // ====================================================================
-
 const float gravity   = 1200.f;
 const float jumpPower = -500.f;
 
@@ -241,7 +240,6 @@ int main()
         if (hero.isDead()) 
             state = GameState::GameOver;
         
-
         // 4️⃣ rysowanie
         window.clear(sf::Color::Black);
         Podłoga.draw(window);
