@@ -1,0 +1,7 @@
+magick 1.png \
+-resize 32x32\! -filter point \
+-colors 12 \
+-dither None \
+-resize 124x124 \
+pic_s.png
+

@@ -1,0 +1,15 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build sfml",
+      "type": "shell",
+      "command": "clang++ main.cpp -std=c++17 $(pkg-config --cflags --libs sfml-graphics sfml-audio) -o main",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": ["$gcc"]
+    }
+  ]
+}
