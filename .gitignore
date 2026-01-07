@@ -1,0 +1,19 @@
+# build
+build/
+*.o
+*.out
+main
+
+# IDE
+.vscode/
+.idea/
+
+# assets
+*.png
+*.jpg
+*.jpeg
+!assets/*.png
+!assets/*.jpg
+!assets/*.jpeg
+
+
