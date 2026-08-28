@@ -4,9 +4,10 @@ build/
 *.out
 main
 
-# IDE
+# IDE / system
 .vscode/
 .idea/
+.DS_Store
 
 # assets
 *.png
@@ -15,5 +16,3 @@ main
 !assets/*.png
 !assets/*.jpg
 !assets/*.jpeg
-
-
