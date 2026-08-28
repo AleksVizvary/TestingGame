@@ -86,7 +86,7 @@ struct Postac {
     Pocisk pocisk;
 
     Postac(float pozycja)
-        : pocisk(pozycja)
+        : pozycja(pozycja), pocisk(pozycja)
     {
     }
 
@@ -213,4 +213,3 @@ struct GameLoop
     }
     
 };
-
